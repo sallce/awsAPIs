@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DynamoDB sample</title>
+  </head>
+  <body>
+  <table border = 1>
+      <td>
+          <table border = 1>
+          <caption>Table Operations</caption>
+          <td><input id="createTableButton" type="button" value="Create Table" onclick="createRoomStays();" /></td><td><input id="deleteTableButton" type="button" value="Delete Table" onclick="deleteMovies();" /></td><td><input id="listTablebutton" type="button" value="List Tables" onclick="listMovies();" /></td>
+          </table>
+      </td>
+      <td>
+          <table border = 1>
+              <caption>CRUD Operations</caption>
+              <td><input id="insertItem" type="button" value="Insert Item" onclick="insertItem();" /></td><td><input id="readItem" type="button" value="Read Item" onclick="readItem();" /></td><td><input id="updateItem" type="button" value="Update Item" onclick="updateItem();" /><td><input id="deleteItem" type="button" value="Delete Item" onclick="deleteItem();" /></td></td>
+          </table>
+      </td>
+      <td>
+          <table border = 1>
+              <caption>Query and Scan</caption>
+              <td><input id="queryData" type="button" value="Query" onclick="queryData();" /></td><td><input id="scanData" type="button" value="Scan" onclick="scanData();" /></td>
+          </table>
+      </td>
+      <td>
+          <table border = 1>
+              <caption>Import JSON</caption>
+              <td><input type="file" id="fileinput" accept='application/json'/></td>
+          </table>
+      </td>
+  </table>
+
+  <br>
+  <textarea readonly id= "textarea" style="width:400px; height:800px"></textarea>
+
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.81.0.min.js"></script>
+    <script src="./main.js" charset="utf-8"></script>
+  </body>
+</html>

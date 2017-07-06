@@ -1,0 +1,83 @@
+[
+    {
+      "orderID":1,
+      "client_id":1,
+      "rooms": 2,
+      "adult_count": 2,
+      "child_count": 0,
+      "nights": 10,
+      "check_in": "2017-10-19",
+      "check_out": "2017-10-29",
+      "average_night_rate": 193.86,
+      "room_rate_info": [
+          {
+              "check_in": "2017-10-19",
+              "check_out": "2017-10-24",
+              "night_rate": 189.1,
+              "rooms": 2,
+              "sub_total": 1890.97,
+              "room_type": "two beds"
+          },
+          {
+              "check_in": "2017-10-14",
+              "check_out": "2017-10-29",
+              "night_rate": 198.61,
+              "rooms": 2,
+              "sub_total": 1986.78,
+              "room_type": "two beds"
+          }
+      ]
+  },
+  {
+    "orderID":2,
+    "client_id":1,
+    "rooms": 1,
+    "adult_count": 2,
+    "child_count": 0,
+    "nights": 1,
+    "check_in": "2017-10-28",
+    "check_out": "2017-10-30",
+    "average_night_rate": 200,
+    "room_rate_info": [
+        {
+            "check_in": "2017-10-28",
+            "check_out": "2017-10-30",
+            "night_rate": 200,
+            "rooms": 1,
+            "sub_total": 400,
+            "room_type": "two beds"
+        }
+    ]
+  },
+
+  {
+    "orderID":3,
+    "client_id":2,
+    "rooms": 2,
+    "adult_count": 2,
+    "child_count": 0,
+    "nights": 10,
+    "check_in": "2017-11-19",
+    "check_out": "2017-11-29",
+    "average_night_rate": 193.86,
+    "room_rate_info": [
+        {
+            "check_in": "2017-10-19",
+            "check_out": "2017-10-24",
+            "night_rate": 189.1,
+            "rooms": 2,
+            "sub_total": 1890.97,
+            "room_type": "two beds"
+        },
+        {
+            "check_in": "2017-10-14",
+            "check_out": "2017-10-29",
+            "night_rate": 198.61,
+            "rooms": 2,
+            "sub_total": 1986.78,
+            "room_type": "two beds"
+        }
+    ]
+  }
+
+]
