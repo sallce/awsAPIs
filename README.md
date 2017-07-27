@@ -2,8 +2,9 @@
 
 Projects list:
 
- * S3 upload images project
+ * S3 upload images project; get, query, delete, upload objects
  * DynamoDB create table, delete table, and CRUD Operations
+ * SES send emails
 
 
 ## Easy to get started:
