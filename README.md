@@ -2,7 +2,7 @@
 
 Projects list:
 
- * S3 upload images project; get, query, delete, upload objects
+ * S3 upload images project; get, query, delete, upload objects. Based on http request methods and request data to perform different actions.
  * DynamoDB create table, delete table, and CRUD Operations
  * SES send emails
 
