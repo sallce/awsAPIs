@@ -34,8 +34,8 @@ $client = SesClient::factory(array(
     'version'=> 'latest',
     'region' => REGION,
     'credentials' => array(
-        'key' => 'AKIAIQAIWTLC5XCPXV7Q',
-        'secret'  => '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'
+        'key' => 'aws key',
+        'secret'  => 'aws secret'
     )
 ));
 
