@@ -13,11 +13,11 @@ define('REQUIRED_FILE','../vendor/autoload.php');
 
 // Replace sender@example.com with your "From" address.
 // This address must be verified with Amazon SES.
-define('SENDER', 'kyle.shang@aichotels.com');
+define('SENDER', 'testSender@test.com');
 
 // Replace recipient@example.com with a "To" address. If your account
 // is still in the sandbox, this address must be verified.
-define('RECIPIENT', 'yachaocs@gmail.com');
+define('RECIPIENT', 'testReciever@test.com');
 
 // Replace us-east-1 with the AWS Region you're using for Amazon SES.
 define('REGION','us-east-1');
